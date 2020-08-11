@@ -3,6 +3,6 @@ def reverse_each_word(string)
   flip.collect do |word|
     word.reverse
   end
-  puts string.join ""
+  flip.join " "
 
 end
